@@ -2,6 +2,33 @@
    POLLY COLOR STUDIO — JavaScript
 ═══════════════════════════════════════════════════════════ */
 
+/* ─── Google Ads: conversão em cliques no WhatsApp ─────── */
+
+// Event snippet for CLIQUE WPP conversion
+// Chamado em todos os botões que levam ao WhatsApp
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+    'send_to': 'AW-18028077703/K6SeCI7Eo70cEIfFupRD',
+    'value': 1.0,
+    'currency': 'BRL',
+    'event_callback': callback
+  });
+  return false;
+}
+
+// Aplica o tracking em todos os links do WhatsApp da página
+document.querySelectorAll('a[href*="api.whatsapp.com"]').forEach(function(a) {
+  a.addEventListener('click', function(e) {
+    e.preventDefault();
+    gtag_report_conversion(this.href);
+  });
+});
+
 /* ─── Header: adiciona classe ao rolar ─────────────────── */
 const hdr = document.getElementById('hdr');
 
