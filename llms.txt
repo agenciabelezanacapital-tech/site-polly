@@ -1,0 +1,22 @@
+# Polly Color Studio
+
+> Salão de beleza e cabeleireiro de alto padrão na Asa Sul, Brasília. Especialista em correção de cor, mechas, balayage, luzes e colorimetria personalizada, com mais de 30 anos de experiência no Brasil, EUA e Europa.
+
+## Informações do negócio
+- Nome: Polly Color Studio
+- Categoria: Salão de beleza / Cabeleireiro de alto padrão
+- Endereço: BL B - CLS 104 Sul, Loja 29, Brasília - DF, 70343-520
+- Telefone: (61) 3244-1871
+- WhatsApp: (61) 99109-2743
+- Horário: Segunda a Sexta, 9h às 19h
+- Avaliação: 4.9/5 no Google (113+ avaliações)
+- Idiomas atendidos: Português, English, Français
+
+## Serviços
+- Correção de cor especializada
+- Mechas, balayage e luzes
+- Colorimetria personalizada
+
+## Links
+- Site: https://site-polly.vercel.app
+- Instagram: https://www.instagram.com/pollycolorstudio/
